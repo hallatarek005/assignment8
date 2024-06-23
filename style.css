@@ -1,0 +1,32 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+.title {
+  font-size: 80px;
+  font-family: Impact;
+}
+.subTitle {
+  font-size: 35px;
+}
+
+#quoteBtn {
+  width: 250px;
+  height: 80px;
+  background-color: blue;
+  color: white;
+}
+
+#quoteText,
+#authorText {
+  font-size: 35px;
+  font-style: italic;
+}
